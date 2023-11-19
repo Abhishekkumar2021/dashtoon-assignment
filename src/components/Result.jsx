@@ -67,7 +67,7 @@ const Result = () => {
                {
                    error && <div className='error'>
                        <h1>{error}</h1>
-                       <Link className='button' href="/">Go  home</Link>
+                       <Link className='button' to="/">Go  home</Link>
                    </div>
                }
            </div>
